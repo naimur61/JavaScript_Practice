@@ -1,10 +1,4 @@
-// const digit = 102;
 
-// if (digit % 2 === 0) {
-//    console.log(digit + " is a even number.");
-// } else {
-//    console.log(digit + " is a odd number.");
-// }
 
 
 function isLeaper(year) {
@@ -14,12 +8,11 @@ function isLeaper(year) {
    return false;
 }
 
-// console.log(isLeaper(1952));
-
 const years = [1892, 1896, 1904, 1908, 1912, 1916, 1920, 1924, 1928, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2022];
 
 let i = 0;
 
+// By while loop 
 // while (i < years.length) {
 
 //    const element = years[i]
@@ -28,6 +21,8 @@ let i = 0;
 //    i++;
 // }
 
+
+// By for loop 
 for (let i = 0; i < years.length; i++) {
    const year = years[i];
    // console.log(year);
